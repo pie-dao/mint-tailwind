@@ -171,10 +171,10 @@ module.exports = (theme) => {
       '.left': {
         'margin': '0',
         'min-width': '300px',
-        'width': 'auto',
+        'width': '25%',
 
         '.amount': {
-          'font-size': theme('fontSize.7vw'),
+          'font-size': theme('fontSize.3vw'),
         },
         '.symbol': {
           'font-size': theme('fontSize.xl'),
@@ -215,6 +215,5 @@ module.exports = (theme) => {
     },
   };
 
-  console.log(styles);
   return styles;
 };
